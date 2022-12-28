@@ -27,7 +27,7 @@ const pathToImages = "./assets/images/slideshow/";
 
 let slideIndex = 0;
 
-bannerFill = () => {
+const bannerFill = () => {
 	bannerImage.src = pathToImages + slides[slideIndex].image;
 	bannerText.innerHTML = slides[slideIndex].tagLine;
 	dots[slideIndex].classList.add("dot_selected");
