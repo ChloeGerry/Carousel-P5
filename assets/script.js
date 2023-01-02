@@ -21,9 +21,9 @@ const leftArrow = document.querySelector(".js-arrowLeft");
 const rightArrow = document.querySelector(".js-arrowRight");
 const bannerImage = document.querySelector(".js-bannerImage");
 const bannerText = document.querySelector(".js-bannerText");
+const pathToImages = "./assets/images/slideshow/";
 let selectedDot = document.querySelector(".dot_selected");
 const dots = document.querySelectorAll(".dot");
-const pathToImages = "./assets/images/slideshow/";
 
 let slideIndex = 0;
 
