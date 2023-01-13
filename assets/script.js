@@ -41,9 +41,7 @@ leftArrow.addEventListener("click", () => {
 
 	slideIndex--;
 
-	if (slideIndex === slides.length - 1) {
-		dots[slideIndex].classList.remove("dot_selected");
-	} else {
+	if (slideIndex !== slides.length - 1) {
 		dots[slideIndex + 1].classList.remove("dot_selected");
 	}
 	
